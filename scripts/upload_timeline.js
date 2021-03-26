@@ -43,4 +43,5 @@
         }
     }
     upload('google-location-history.json', data);
+    alert('Your timeline information was uploaded successfully to our Last Mile Study. Thanks for participating!')
 }());
