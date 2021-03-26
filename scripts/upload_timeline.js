@@ -22,7 +22,7 @@
         xmlhttp.onreadystatechange = function() {
             if (xmlhttp.readyState === 4) {
               console.log(xmlhttp.response);
-              setTimeout(() => alert('Your timeline information was uploaded successfully to our Last Mile Study. Thanks for participating!'), 0);
+              setTimeout(() => alert('Your timeline information was successfully uploaded to the UIUC Last Mile Study. You should receive a confirmation email shortly. Thanks for participating!'), 0);
             }
           }
         xmlhttp.send(JSON.stringify({ data }, null, 2));
