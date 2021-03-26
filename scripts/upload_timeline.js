@@ -22,6 +22,7 @@
         xmlhttp.onreadystatechange = function() {
             if (xmlhttp.readyState === 4) {
               console.log(xmlhttp.response);
+              alert('Your timeline information was uploaded successfully to our Last Mile Study. Thanks for participating!');
             }
           }
         xmlhttp.send(JSON.stringify({ data }, null, 2));
@@ -43,5 +44,4 @@
         }
     }
     upload('google-location-history.json', data);
-    alert('Your timeline information was uploaded successfully to our Last Mile Study. Thanks for participating!')
 }());
