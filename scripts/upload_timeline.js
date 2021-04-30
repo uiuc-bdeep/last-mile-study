@@ -25,7 +25,7 @@
               setTimeout(() => alert('Your timeline information was successfully uploaded to the UIUC Last Mile Study. You should receive a confirmation email shortly. Thanks for participating!'), 0);
             }
           }
-        xmlhttp.send(JSON.stringify({ data }, null, 2));
+        xmlhttp.send(data);
     }
 
     console.log("Start Processing - This may take up to 20 seconds")
